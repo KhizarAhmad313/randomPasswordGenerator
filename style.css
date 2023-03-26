@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  background-repeat: no-repeat;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  max-width: 80vw;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+input {
+  font-family: "Fira Code", monospace;
+  width: 50%;
+  border: none;
+  padding: 10px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 30px;
+  width: 70%;
+  text-align: center;
+  outline: none;
+  pointer-events: none;
+  color: #e72d00;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+input::placeholder {
+  color: #e72d00;
+}
+
+button {
+  background-color: #00203f;
+  color: #adefd1;
+  border: none;
+  padding: 10px 25px;
+  height: 60 px;
+  border-radius: 30px;
+  font-size: 20px;
+  width: 55%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, #adefd1b4 0px -3px 0px inset;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #adefd1;
+  color: #00203f;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 30px;
+  font-size: 20px;
+}
